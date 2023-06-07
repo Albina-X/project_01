@@ -29,4 +29,4 @@ for i in random_songs:
     a.append (i[1])
     sum = sum + i[1]
 
-print('Три песни:', random_songs[0][0], ',', random_songs[1][0], ',', random_songs[2][0], 'звучат', sum, 'минут.')
+print('Три песни:', random_songs[0][0], ',', random_songs[1][0], ',', random_songs[2][0], 'звучат', round(sum, 3), 'минут.')

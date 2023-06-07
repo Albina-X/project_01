@@ -25,4 +25,4 @@ random_songs = random.sample(list(my_favorite_songs_dict.keys()), 3)
 
 total_time = sum(my_favorite_songs_dict[song] for song in random_songs)
 
-print('Три песни:', random_songs, 'звучат',  total_time, 'минут.')
+print('Три песни:', random_songs, 'звучат',  round(total_time, 3), 'минут.')
