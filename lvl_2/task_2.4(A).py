@@ -15,4 +15,4 @@ def remove_exclamation_marks(s):
     i=s.replace('!', '')
     return i
 
-print(remove_exclamation_marks('I live! in Russia')) # выводит: I live in Russia
+print(remove_exclamation_marks('I live! in Russia.')) # выводит: I live in Russia

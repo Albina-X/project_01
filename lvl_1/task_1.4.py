@@ -30,7 +30,7 @@ for object, code in titles.items():
     if code in store:
         total_objects = 0
         total_price = 0
-
+        
         for x in store[code]:
             quantity = x['quantity']
             price = x['price']
